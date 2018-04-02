@@ -1,0 +1,26 @@
+CREATE SCHEMA IF NOT EXISTS `sdtp02` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `sdtp02` ;
+
+
+-- -----------------------------------------------------
+-- Table `sdtp02`.`texte`
+-- -----------------------------------------------------
+CREATE  TABLE IF NOT EXISTS `sdtp02`.`texte` (
+	`idtext` int NOT NULL AUTO_INCREMENT,
+  `francais` TEXT NULL ,
+  `anglais` TEXT NULL ,
+   PRIMARY KEY (`idtext`) )
+ENGINE = InnoDB;
+
+-- -----------------------------------------------------
+-- Table `sdtp02`.`images`
+-- -----------------------------------------------------
+CREATE  TABLE IF NOT EXISTS `sdtp02`.`images` (
+	`idphoto` int NOT NULL AUTO_INCREMENT,
+  `photo` MEDIUMBLOB ,
+  PRIMARY KEY (`idphoto`) )
+ENGINE = InnoDB;
+
+
+
+USE `sdtp02` ;
