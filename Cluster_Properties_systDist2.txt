@@ -1,9 +1,0 @@
-this ip (syst Dist) = 192.168.0.10
-
-
-syst dist 1 == execute p1 et p2
-
-syst dist 2 == execute p3 et p4
-
-
-centos 7 syst dist 2 ip adresse: 192.168.0.9   pour faire remote access!!!!!!!
